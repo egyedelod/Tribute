@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <main id="main">
+
+    <h1 id="title">ELON MUSK</h1>
+   
+    <p>The man who pushes forward humanity</p>
+      
+    <figure id="img-div">
+        <img
+          id="image"
+          src="D:\E\PROGRAMOZAS\TRIBUTE PAGE\pictures\musk.jpg"
+          alt="This is a picture of Elon Musk standing in front of a Tesla Model S"
+        />
+        <figcaption id="img-caption">
+          Elon Musk standing in front of a Tesla Model S
+        </figcaption>
+    </figure>
+
+    </div>
+   
+
+    <section id="tribute-info">
+    
+      <h3 id="headline">Here are some historical events of Elon Musk:</h3>
+
+      <ul id="tribute-info">
+        <li>In <strong>1995</strong>, Musk, his brother Kimbal, and Greg Kouri founded web software company Zip2 with funds from a group of angel investors.</li>
+        <li>In <strong>1999</strong>, Musk co-founded X.com, an online financial services and e-mail payment company. One year later, the company merged with Confinity, which had a money-transfer service called PayPal</li>
+        <li>In <strong>2001</strong>, Musk conceived Mars Oasis: a miniature greenhouse on Mars would grow food crops and reawaken public interest in space exploration.</li>
+        <li>With <strong>$100 million</strong> of his early fortune, Musk founded Space Exploration Technologies Corp., traded as SpaceX, in May 2002.</li>
+        <li>Tesla, Inc. (originally Tesla Motors) was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning, who financed the company until the Series A round of funding</li>
+        <li>Musk provided the initial concept and financial capital for SolarCity, which his cousins Lyndon and Peter Rive co-founded in <strong>2006</strong>.</li>
+      </ul>
+  
+
+      <blockquote
+      cite="https://www.inc.com/peter-economy/11-elon-musk-quotes-that-will-push-you-to-achieve-impossible.html"
+      >
+      <p>
+        "When something is important enough, you do it even if the odds are not in your favor."
+      </p>
+      <cite>-- Elon Musk</cite>
+      </blockquote>
+
+      <p> For more information about Elon Musk check the following 
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">"Link"</a>
+      </p>
+
+    </section>
+ 
+
+  </main>html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  background-color: gray;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  background: #eee;
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+</body>
+</html>
